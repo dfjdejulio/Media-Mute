@@ -319,6 +319,9 @@
 					47A6224821C0B72100C96559 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
@@ -330,6 +333,9 @@
 					47A6227A21C0B7F000C96559 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
@@ -601,6 +607,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2ZM9YDU9XJ;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Media Mute/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -619,6 +626,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2ZM9YDU9XJ;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Media Mute/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,6 +682,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Media Mute Content Blocker/Media Mute Content Blocker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZM9YDU9XJ;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Media Mute Content Blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -692,6 +701,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Media Mute Content Blocker/Media Mute Content Blocker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZM9YDU9XJ;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Media Mute Content Blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
