@@ -16,12 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Fetch the embedded RTF file with the display text.
     NSURL *aboutPath = [[NSBundle mainBundle] URLForResource:@"About" withExtension:@"rtf"];
     NSAttributedString *aboutText = [[NSAttributedString alloc] initWithURL:aboutPath options:@{ } documentAttributes: Nil error: Nil];
+    // Fetch the view in which to display it.
     UITextView *aboutView = [self.view viewWithTag:23];
-    aboutView.attributedText = aboutText;    
+    // Display it.
+    aboutView.attributedText = aboutText;
 }
-
 
 @end
