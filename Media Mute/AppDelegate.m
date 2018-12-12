@@ -22,7 +22,6 @@
     NSURL *aboutPath = [[NSBundle mainBundle] URLForResource:@"About" withExtension:@"rtf"];
     NSAttributedString *aboutText = [[NSAttributedString alloc] initWithURL:aboutPath options:@{ } documentAttributes: Nil error: Nil];
     [self.aboutView.textStorage setAttributedString: aboutText];
-    printf("Hello, sailor!");
 }
 
 
