@@ -11,7 +11,7 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSTextView *aboutView;
+@property IBOutlet NSTextView *aboutView;
 @end
 
 
