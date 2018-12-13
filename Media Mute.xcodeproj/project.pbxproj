@@ -74,6 +74,7 @@
 		4706596121C0C2A400124BE2 /* About.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = About.rtf; sourceTree = "<group>"; };
 		4706596421C0DDA800124BE2 /* Media Mute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Media Mute.entitlements"; sourceTree = "<group>"; };
 		4706596521C0DDAF00124BE2 /* Media Mute Content Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Media Mute Content Blocker.entitlements"; sourceTree = "<group>"; };
+		470D9D5921C205BD00605D31 /* Versioning.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Versioning.xcconfig; sourceTree = "<group>"; };
 		47A6224921C0B72100C96559 /* Media Mute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Mute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A6224C21C0B72100C96559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47A6224D21C0B72100C96559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,6 +144,7 @@
 			children = (
 				47A6228021C0B7F100C96559 /* blockerList.json */,
 				4706596121C0C2A400124BE2 /* About.rtf */,
+				470D9D5921C205BD00605D31 /* Versioning.xcconfig */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
